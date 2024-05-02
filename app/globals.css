@@ -2,32 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+h2 {
+  color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h3 {
+  color: slategrey;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.primary .timeline {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 10px; /* Space for the line */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px; /* Position of the timeline line */
+  width: 2px;
+  height: 100%;
+  background-color: #ccc; /* Color of the timeline line */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-date {
+  position: absolute;
+  left: -10px; /* Offset from the timeline dot */
+  transform: translateX(
+    -100%
+  ); /* Moves the date to the left of the timeline dot */
+  font-size: 14px;
+  color: #777;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
 }
