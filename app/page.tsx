@@ -1,8 +1,5 @@
 import ProjectCard from "./components/ProjectCard";
 import Timeline from "./components/Timeline";
-import { FaPython } from "react-icons/fa";
-import { RiNextjsFill } from "react-icons/ri";
-import { SiPytorch } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -24,10 +21,25 @@ export default function Home() {
 
       <div className="mt-8">
         <h2 className="font-bold text-lg mb-2">Featured Projects</h2>
-        <div className="grid md:grid-cols-3 gap-3">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+        <div className="grid lg:grid-cols-3 gap-3">
+          <ProjectCard
+            title="Ausmetric"
+            description="Ausmetrics is a dashboard presenting current Australian economic data and summarising it with AI."
+            media="ausmetrics-example.gif"
+            link="https://ausmetrics.vercel.app/"
+          />
+          <ProjectCard
+            title="Kanbag"
+            description="Kanbag is helpful trip packing kanban board that features AI generated suggestions."
+            media="kanbag-example.gif"
+            link="https://kanbag.netlify.app/"
+          />
+          <ProjectCard
+            title="Wool"
+            description="Wool is a creative portfolio that looks and functions like a desktop UI with icons and draggable modals."
+            media="acot-example.gif"
+            link="https://andydcotton.com/"
+          />
         </div>
       </div>
 
@@ -55,12 +67,8 @@ export default function Home() {
       </div>
 
       <div className="mt-8">
-        <h2 className="font-bold text-lg">Tech Stack</h2>
-        <div className="flex gap-4">
-          <FaPython className="w-6 h-6" />
-          <RiNextjsFill className="w-6 h-6" />
-          <SiPytorch className="w-6 h-6" />
-        </div>
+        <h2 className="font-bold text-lg">Notes</h2>
+        <div className="flex gap-4"></div>
       </div>
     </main>
   );

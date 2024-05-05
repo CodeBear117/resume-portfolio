@@ -1,17 +1,26 @@
 import React from "react";
 
-const ProjectCard = () => {
+interface ProjectCardProps {
+  title: string;
+  description: string;
+  media: string;
+  link: string;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  title,
+  description,
+  media,
+  link,
+}) => {
   return (
-    <div className="bg-tile-background rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out">
-      <h3 className="font-semibold">Project Title</h3>
-      <img src="https://placehold.co/600x400" className="rounded-xl my-3" />
-      <p>
-        Filler text is text that shares some characteristics of a real written
-        text, but is random or otherwise generated. It may be used to display a
-        sample of fonts, generate text for testing, or to spoof an e-mail spam
-        filter.
-      </p>
-    </div>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <div className="bg-tile-background rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out lg:min-h-80">
+        <h3 className="font-semibold">{title}</h3>
+        <img src={media} className="rounded-xl my-3 max-h-36" />
+        <p>{description}</p>
+      </div>
+    </a>
   );
 };
 
