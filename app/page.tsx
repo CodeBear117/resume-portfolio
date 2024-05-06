@@ -7,21 +7,20 @@ export default function Home() {
       <div className="mt-4">
         <h2 className="font-bold text-lg">Summary</h2>
         <p>
-          As an experienced and qualified engineer, I have over 4 years of
-          experience within software, automation and robotics. Although I
-          graduated with a degree in Aerospace Engineering, I developed an
-          interest in robotics through my role at Columbia Australia, where I
-          designed robotic tools and programs to automate several manufacturing
-          processes involved in the manufacture of hydrogen fuel cells.
-          Unfortunetly, our entire robotics team was made redundant when it was
-          acquired. This, as well as my love for programming, catalysed my
-          career transition and I soon upskilled myself as a developer working
-          on front end projects at Webatoo Design Australia. I love building
-          software that integrates AI there are multiple examples of this on my
-          Github - check it out! I would describe myself as a quick learner and
-          a team player. I have strong foundational machine learning knowledge
-          and I'm enthusiastic about the future of ML and AI, especially its
-          intersection with robotics.
+          With over four years of experience in software, automation, and
+          robotics, I am a skilled and qualified engineer. Though I hold a
+          degree in Aerospace Engineering, my role at Columbia Australia ignited
+          a passion for robotics as I designed robotic tools and programs to
+          automate manufacturing processes for hydrogen fuel cells. This
+          experience deepened my love for programming, leading me to enhance my
+          development skills at Webatoo Design Australia, where I focused on
+          front-end projects. My strong foundational knowledge in machine
+          learning, combined with my enthusiasm for integrating AI into
+          robotics, is showcased through various projects on my GitHub - check
+          it out below! I am genuinely passionate about the future of ML and AI,
+          particularly at their intersection with robotics. As a quick learner
+          and dedicated team player, I am eager to contribute to this exciting
+          and impactful field.
         </p>
       </div>
 
