@@ -30,7 +30,7 @@ export default function Home() {
           <ProjectCard
             title="Ausmetric"
             description="Ausmetrics is a dashboard presenting current Australian economic data and summarising it with AI."
-            media="ausmetrics-example.gif"
+            media="ausmetrics-compressed.gif"
             link="https://ausmetrics.vercel.app/"
           />
           <ProjectCard

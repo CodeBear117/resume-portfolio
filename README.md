@@ -20,4 +20,4 @@ Here is my most recent and up-to-date portfolio. Unlike LinkedIn or a paper copy
 
 ### See it live
 
-[sahilkumar.me](https://sahilkumar.me/)
+[sahilkumar.vercel.app](sahil-kumar.vercel.app)
