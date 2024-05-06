@@ -63,9 +63,11 @@ const Timeline = () => {
               automated plasma coating process.
             </li>
             <li>
-              I designed numerous robot end-of-arm tools that were used in
-              extreme environments meaning they had to be internally cooled and
-              wired.
+              I designed numerous robot end-of-arm tools (EOAT) that were used
+              in extreme environments meaning they had to be internally cooled
+              and wired. I developed complex CAD (Inventor and Solidworks) parts
+              and assemblies, making use of OEM components such as pneumatics,
+              and sensors.
             </li>
             <li>
               I coordinated testing and evaluation of new processes and designs
@@ -73,6 +75,13 @@ const Timeline = () => {
               Computational Fluid Dynamics (CFD) to analyse loads and gas
               dynamics within robotic cells. I often presented findings and
               recommended improvements to management.
+            </li>
+            <li>
+              I fabricated parts in-house using standard machine shop equipment
+              such as mills, lathes, bandsaws and GD&T tooling. I have hands on
+              experience with materials such as Aluminium, Titanium and Steel,
+              which I used selectively which developing robotic EOATs and
+              peripherals.
             </li>
             <li>
               I developed comprehensive setup, usage, and maintenance
@@ -127,40 +136,14 @@ const Timeline = () => {
         role="Intern"
         dates="Dec 2018 - Feb 2019"
         overview="Assisting in preparation of Auditor’s Report within the Annual Financial Report for ASX listed companies, demonstrating keen attention to detail and working to strict deadlines. Interacting with external and internal stakeholders in reviewing related controls documents for assigned areas of responsibility."
-        details={
-          <ul className="list-disc pl-5 text-sm text-gray-700">
-            <li>
-              I worked with advisors, test drivers, and the other departments
-              (sales, energy) to drive positive customer experiences which
-              eventually led to sales.
-            </li>
-            <li>
-              I always displayed professionalism and enthusiasm in daily
-              interactions with all customers and promoted Tesla’s mission to
-              accelerate the world’s transition to sustainable energy.
-            </li>
-          </ul>
-        }
+        details=""
       />
       <JobCard
         company="Tesla"
         role="Product Specialist"
         dates="Aug 2017 - Nov 2018"
         overview="Worked with advisors, test drivers, and the other departments (sales, energy) to drive positive customer experiences which eventually led to sales. Demonstrated an ability to develop rapport with a wide demographic of customers and clients."
-        details={
-          <ul className="list-disc pl-5 text-sm text-gray-700">
-            <li>
-              I worked with advisors, test drivers, and the other departments
-              (sales, energy) to drive positive customer experiences which
-              eventually led to sales.
-            </li>
-            <li>
-              I always displayed professionalism and enthusiasm in daily
-              interactions with all customers and promoted Tesla’s mission to
-              accelerate the world’s transition to sustainable energy.
-            </li>
-          </ul>
-        }
+        details=""
       />
     </div>
   );

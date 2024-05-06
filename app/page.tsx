@@ -7,15 +7,21 @@ export default function Home() {
       <div className="mt-4">
         <h2 className="font-bold text-lg">Summary</h2>
         <p>
-          Experienced and qualified developer with over 4 years of professional
-          work experience. Has strong programming and design aptitude through
-          web development in both frontend and backend. Has strong foundational
-          machine learning knowledge and is enthusiastic about the future of ML
-          and AI. Displays a high level of analytic and strategic skills with
-          proven ability to solve broad and complex problems. Is able to review
-          and implement technical design changes quickly. Is always looking out
-          for areas of improvement and efficiency in project management and
-          delivery.
+          As an experienced and qualified engineer, I have over 4 years of
+          experience within software, automation and robotics. Although I
+          graduated with a degree in Aerospace Engineering, I developed an
+          interest in robotics through my role at Columbia Australia, where I
+          designed robotic tools and programs to automate several manufacturing
+          processes involved in the manufacture of hydrogen fuel cells.
+          Unfortunetly, our entire robotics team was made redundant when it was
+          acquired. This, as well as my love for programming, catalysed my
+          career transition and I soon upskilled myself as a developer working
+          on front end projects at Webatoo Design Australia. I love building
+          software that integrates AI there are multiple examples of this on my
+          Github - check it out! I would describe myself as a quick learner and
+          a team player. I have strong foundational machine learning knowledge
+          and I'm enthusiastic about the future of ML and AI, especially its
+          intersection with robotics.
         </p>
       </div>
 
@@ -68,7 +74,14 @@ export default function Home() {
 
       <div className="mt-8">
         <h2 className="font-bold text-lg">Notes</h2>
-        <div className="flex gap-4"></div>
+        <p>
+          You might notice the dates for Webatoo Design Australia and Columbia
+          Australia clash. During this period, I was working part time as a web
+          designer. I took up a full time position at the conclusion of my work
+          at Columbia Australia.
+        </p>
+        <br />
+        <p>References will be provided on request.</p>
       </div>
     </main>
   );
