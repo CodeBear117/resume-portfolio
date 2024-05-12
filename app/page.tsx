@@ -74,10 +74,11 @@ export default function Home() {
       <div className="mt-8">
         <h2 className="font-bold text-lg">Notes</h2>
         <p>
-          You might notice the dates for Webatoo Design Australia and Columbia
+          You may notice the dates for Webatoo Design Australia and Columbia
           Australia clash. During this period, I was working part time as a web
-          designer. I took up a full time position at the conclusion of my work
-          at Columbia Australia.
+          developer. I gained this position in a part-time capacity as I was
+          leaving university, and I took up a full-time position at the
+          conclusion of my work at Columbia Australia.
         </p>
         <br />
         <p>References will be provided on request.</p>

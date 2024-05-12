@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 
 interface JobCardProps {
   company: string;
+  link: string;
   role: string;
   dates: string;
   overview: string;
@@ -11,6 +12,7 @@ interface JobCardProps {
 
 const JobCard: React.FC<JobCardProps> = ({
   company,
+  link,
   role,
   dates,
   overview,
@@ -32,7 +34,16 @@ const JobCard: React.FC<JobCardProps> = ({
       <div className="timeline-dot absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-600 rounded-full w-3 h-3"></div>
       <div className="timeline-content ml-10 bg-tile-background rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out">
         <div className="text-gray-600 text-sm">{dates}</div>
-        <h3>{company}</h3>
+        <h3>
+          <a
+            href={link}
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {company}
+          </a>
+        </h3>
         <h3 className="font-semibold text-lg">{role}</h3>
         <p className="text-sm text-gray-700">{overview}</p>
         <div
