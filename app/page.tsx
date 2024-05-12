@@ -15,9 +15,9 @@ export default function Home() {
           experience deepened my love for programming, leading me to enhance my
           development skills at Webatoo Design Australia, where I focused on
           front-end projects. My strong foundational knowledge in machine
-          learning, combined with my enthusiasm for integrating AI into
-          robotics, is showcased through various projects on my GitHub - check
-          it out below! I am genuinely passionate about the future of ML and AI,
+          learning, combined with my enthusiasm for integrating AI into web
+          apps, is showcased through various projects on my GitHub - check it
+          out below! I am genuinely passionate about the future of ML and AI,
           particularly at their intersection with robotics. As a quick learner
           and dedicated team player, I am eager to contribute to this exciting
           and impactful field.
