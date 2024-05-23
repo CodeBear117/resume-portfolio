@@ -9,12 +9,12 @@ const Timeline = () => {
         link="https://www.webatoo.com.au/"
         role="Frontend Developer"
         dates="Jan 2020 - Present"
-        overview="Designing websites and web apps, focusing on front-end development. Tech stack encompasses TypeScript, Node, React, and Python. I work directly with clients and excel in functional design which I believe is essential for resolving complex programming tasks."
+        overview="Designing websites and web apps, focusing on front-end development. I work directly with clients and excel in functional design which I believe is essential for resolving complex programming tasks. Increasingly involved in full-stack development."
         details={
           <ul className="list-disc pl-5 text-sm text-gray-700">
             <li>
-              • Tech stack includes HTML, CSS, JavaScript, TypeScript, Python,
-              and modern frameworks including Next.js, React.js, Node.js and
+              Tech stack includes HTML, CSS, JavaScript, TypeScript, Python, and
+              modern frameworks including Next.js, React.js, Node.js and
               Tailwind CSS.
             </li>
             <li>
@@ -51,8 +51,8 @@ const Timeline = () => {
             </li>
             <li>
               I have a strong understanding of Git version control software and
-              CI/CD (GitHub and GitHub Actions), having played a role across
-              various stages of the SDLC.
+              CI/CD (GitHub and GitHub Actions), as well as Agile methodology
+              and Scrum.
             </li>
           </ul>
         }
