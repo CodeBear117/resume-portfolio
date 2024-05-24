@@ -60,7 +60,7 @@ const Timeline = () => {
       <JobCard
         company="Columbia Australia"
         link="https://youtu.be/9v5FbmLEE4Q?si=JBU5hPwZbnx3PxZR"
-        role="Mechanical Engineer (Manufacturing Automation & Robotics)"
+        role="Robotics Engineer (Manufacturing Automation)"
         dates="Feb 2021 - Oct 2022"
         overview="Programming and commissioning of robotic automated manufacturing lines for Hydrogen Fuel Cell production."
         details={
@@ -74,8 +74,9 @@ const Timeline = () => {
             <li>
               My role encapsulted a great intersection between robotics and
               Machine Learning (ML); I configured and trained feature
-              recognition algorithms to identify and classify reject parts from
-              production that were subsequently removed by the robot.
+              recognition algorithms (computer vision) to identify and classify
+              reject parts from production that were subsequently removed by the
+              robot.
             </li>
             <li>
               I designed and commissioned various complex robotic manufacturing
