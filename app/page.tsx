@@ -28,7 +28,13 @@ export default function Home() {
         <h2 className="font-bold text-lg mb-2">Featured Projects</h2>
         <div className="grid lg:grid-cols-3 gap-3">
           <ProjectCard
-            title="Ausmetric"
+            title="Here-to-help.ai"
+            description="Here-to-help.ai is a tool for crisis support workers. It features AI call transcription and analysis. We were awarded first place for the 2024 AI Hackathon by Build Club."
+            media="here-to-help-screenshot.png"
+            link="https://www.youtube.com/watch?v=ZMN0bdank1U"
+          />
+          <ProjectCard
+            title="Ausmetrics"
             description="Ausmetrics is a dashboard presenting current Australian economic data and summarising it with AI."
             media="ausmetrics-compressed.gif"
             link="https://ausmetrics.vercel.app/"
