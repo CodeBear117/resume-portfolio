@@ -62,11 +62,12 @@ export default function Home() {
       <div className="mt-8">
         <h2 className="font-bold text-lg mb-2">Education</h2>
         <div className="bg-[#f8fafc] rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out">
-          <div className=" text-gray-600 text-sm">2021 - 2023</div>
+          <div className=" text-gray-600 text-sm">2022 - 2024</div>
           <h3 className="font-semibold text-lg">Codecademy</h3>
           <p className="text-sm text-gray-700">
             Full Stack Engineer Certification
           </p>
+          <p className="text-sm text-gray-400">Certification ID - 66EA97648D</p>
         </div>
         <div className="mt-4 bg-[#f8fafc] rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out">
           <div className=" text-gray-600 text-sm">2015 - 2020</div>

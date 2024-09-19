@@ -15,7 +15,8 @@ const Timeline = () => {
             <li>
               Tech stack includes HTML, CSS, JavaScript, TypeScript, Python, and
               modern frameworks including Next.js, React.js, Node.js and
-              Tailwind CSS.
+              Tailwind CSS. My role has significantly contributed to my exposure
+              to various tech stacks.
             </li>
             <li>
               I have Integrated Open AI’s API into backend workflows including
@@ -40,19 +41,19 @@ const Timeline = () => {
               Canva.
             </li>
             <li>
-              I have integrated databases into full-stack applications using
-              Supabase, PostgreSQL and MongoDB. This includes authenticated and
-              secure sessions for CRUD functionality through PKCE and oAuth2.0
-              flow.
+              I have integrated various types of databases into applications
+              using MySQL, Postgres, Supabase, and MongoDB. This includes
+              authenticated and secure sessions for CRUD functionality through
+              PKCE and oAuth2.0 flow.
             </li>
             <li>
-              • I am highly skilled in WordPress CMS for articles, publications,
+              I am highly skilled in WordPress CMS for articles, publications,
               and media content.
             </li>
             <li>
               I have a strong understanding of Git version control software and
-              CI/CD (GitHub and GitHub Actions), as well as Agile methodology
-              and Scrum.
+              CI/CD (Azure Devops, GitHub Actions), as well as Agile methodology
+              and Scrum, having earned a PSM-1 certification.
             </li>
           </ul>
         }
