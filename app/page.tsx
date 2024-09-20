@@ -70,7 +70,7 @@ export default function Home() {
           <p className="text-sm text-gray-400">Certification ID - 66EA97648D</p>
         </div>
         <div className="mt-4 bg-[#f8fafc] rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out">
-          <div className=" text-gray-600 text-sm">2015 - 2020</div>
+          <div className=" text-gray-600 text-sm">2015 - 2019</div>
           <h3 className="font-semibold text-lg">Monash University</h3>
           <p className="text-sm text-gray-700">
             Bachelor of Aerospace Engineering (Hons) & Bachelor of Commerce
