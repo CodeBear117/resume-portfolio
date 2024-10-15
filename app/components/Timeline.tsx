@@ -20,7 +20,7 @@ const Timeline = () => {
             <li>
               I develop software collaboratively with large client teams from
               multinational companies including Sixt and Zambrero. This includes
-              UI/UX design, development and refinment and user acceptance
+              UI/UX design, development and refinment, and user acceptance
               testing.
             </li>
             <li>
@@ -35,8 +35,8 @@ const Timeline = () => {
       <JobCard
         company="Webatoo Design Australia"
         link="https://www.webatoo.com.au/"
-        role="Cofounder / Frontend Developer"
-        dates="Jan 2020 - Present"
+        role="Frontend Developer"
+        dates="Jan 2020 - Jun 2024"
         overview="Designing websites and web apps, focusing on front-end development. I work directly with clients and excel in functional design which I believe is essential for resolving complex programming tasks. Increasingly involved in full-stack development."
         details={
           <ul className="list-disc pl-5 text-sm text-gray-700">
