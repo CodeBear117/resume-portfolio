@@ -5,9 +5,37 @@ const Timeline = () => {
   return (
     <div className="timeline relative">
       <JobCard
+        company="Corbel Technologies"
+        link="https://corbel.com.au/"
+        role="Software Engineer"
+        dates="July 2024 - Present"
+        overview="As a Software Engineer, I am building features to enhance client web applications, concentrating on delivering responsive, interactive experiences with a strong emphasis on UI/UX. My toolkit includes .NET C#, TypeScript, React, MongoDB, PostgreSQL, and Azure. I regularly engage with clients and stakeholders, ensuring clear communication and alignment on project goals."
+        details={
+          <ul className="list-disc pl-5 text-sm text-gray-700">
+            <li>
+              I work at a full stack capacity with clients from a diverse set of
+              industries. Therefore, I am across a range of tech stacks as we
+              work on multiple projects concurrently.
+            </li>
+            <li>
+              I develop software collaboratively with large client teams from
+              multinational companies including Sixt and Zambrero. This includes
+              UI/UX design, development and refinment and user acceptance
+              testing.
+            </li>
+            <li>
+              I have quickly adapted to the modern software development
+              lifecycle and best practises for design and release of software. I
+              ensure that all client feedback is meaningfully addressed and
+              closed.
+            </li>
+          </ul>
+        }
+      />
+      <JobCard
         company="Webatoo Design Australia"
         link="https://www.webatoo.com.au/"
-        role="Software Developer"
+        role="Cofounder / Frontend Developer"
         dates="Jan 2020 - Present"
         overview="Designing websites and web apps, focusing on front-end development. I work directly with clients and excel in functional design which I believe is essential for resolving complex programming tasks. Increasingly involved in full-stack development."
         details={

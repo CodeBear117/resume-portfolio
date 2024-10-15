@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <h2 className="font-bold text-lg">Notes</h2>
         <p>
           You may notice the dates for Webatoo Design Australia and Columbia
@@ -89,6 +89,23 @@ export default function Home() {
         </p>
         <br />
         <p>References will be provided on request.</p>
+      </div> */}
+
+      <div className="mt-8">
+        <h2 className="font-bold text-lg">References</h2>
+        <div className="mt-4 bg-[#f8fafc] rounded-lg p-4 hover:shadow-lg transition duration-300 ease-in-out">
+          <h3 className="font-semibold text-lg">Joel Benton</h3>
+          <a
+            href="mailto:joelbenton83@gmail.com"
+            className="text-sm text-gray-700 underline"
+          >
+            joelbenton83@gmail.com
+          </a>
+          <p className="text-sm text-gray-700">0401 906 027</p>
+          <p className="text-sm text-gray-400">
+            Senior mechanical engineer and former manager at Columbia Australia
+          </p>
+        </div>
       </div>
     </main>
   );
