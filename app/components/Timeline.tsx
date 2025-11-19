@@ -5,23 +5,22 @@ const Timeline = () => {
   return (
     <div className="timeline relative">
       <JobCard
-        company="Corbel Technologies"
+        company="Corbel Group"
         link="https://corbel.com.au/"
-        role="Software Engineer"
+        role="Software Engineer (Full Stack)"
         dates="July 2024 - Present"
-        overview="As a Software Engineer, I am building features to enhance client web applications, concentrating on delivering responsive, interactive experiences with a strong emphasis on UI/UX. My toolkit includes .NET C#, TypeScript, React, MongoDB, PostgreSQL, and Azure. I regularly engage with clients and stakeholders, ensuring clear communication and alignment on project goals."
+        overview="As a Software Engineer at Corbel, I am building features to enhance client web applications, concentrating on delivering responsive, interactive experiences with a strong emphasis on enhancing existing applications with AI and modernising legacy codebases."
         details={
           <ul className="list-disc pl-5 text-sm text-gray-700">
             <li>
-              I work at a full stack capacity with clients from a diverse set of
-              industries. Therefore, I am across a range of tech stacks as we
-              work on multiple projects concurrently.
+              Working across multiple tech stacks, my toolkit includes .NET C#,
+              TypeScript, React, MongoDB, PostgreSQL, and Azure. I regularly
+              engage with clients and stakeholders, ensuring clear communication
+              and alignment on project goals.
             </li>
             <li>
               I develop software collaboratively with large client teams from
-              multinational companies including Sixt and Zambrero. This includes
-              UI/UX design, development and refinment, and user acceptance
-              testing.
+              multinational companies including Sixt and Zambrero.
             </li>
             <li>
               I have quickly adapted to the modern software development

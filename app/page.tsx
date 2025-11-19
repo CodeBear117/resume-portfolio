@@ -49,7 +49,7 @@ export default function Home() {
             title="Kanbag"
             description="Kanbag is helpful trip packing kanban board that features AI generated suggestions."
             media="kanbag-example.gif"
-            link="https://kanbag.netlify.app/"
+            link="https://kanbag.vercel.app/"
           />
           <ProjectCard
             title="Wool"
